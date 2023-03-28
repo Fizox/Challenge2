@@ -11,7 +11,7 @@ function findMajority(arr)
             break;
         }  
         }
-    if(1 <= n <= 5*10**4 && bool===true){
+    if(1 <= n <= 5*10**4 && bool){
         for(let i = 0; i < n; i++) 
         {
             let count = 0;
@@ -26,7 +26,7 @@ function findMajority(arr)
                     break;
                 }
             }
-            if (bool2===true) {
+            if (bool2) {
                 break;
             }
         }
